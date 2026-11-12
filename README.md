@@ -16,6 +16,24 @@ The overarching aim of the research project was to develop a device capable of e
 
 This approach has the potential to support healthcare professionals in monitoring patients' nutritional intake while reducing the need for manual food consumption assessments.
 
+Key Results and Achievements
+
+Throughout my 10-week internship, I developed and refined a Python-based image processing and nutritional analysis pipeline using a dataset of 717 paired hospital meal images.
+
+The main outcomes included:
+
+Approximately 98% meal-processing success rate: The final pipeline successfully processed an estimated 98% of the available meals, incorporating image segmentation, quality-control procedures and alternative weight-based consumption estimates.
+
+Great result from the three machine learning models developed to assist with food image segmentation.
+
+Automated nutritional analysis: Integrated estimated food consumption with nutritional composition data to calculate food-level and meal-level nutritional intake.
+
+Interactive Streamlit application: Developed an interface allowing researchers to inspect before-and-after images, review consumption estimates and examine nutritional results.
+
+Robust handling of incomplete data: Introduced fallback calculations and quality-control procedures to handle unreliable segmentation masks and missing food measurements.
+
+These developments contributed to transforming a large collection of hospital meal images and associated measurements into a structured, analysable dataset.
+
 ## Initial Dataset
 
 Upon joining the project, I was provided with a dataset containing **717 hospital meals**, each with a pair of before-and-after images alongside accompanying meal information stored in a spreadsheet.
